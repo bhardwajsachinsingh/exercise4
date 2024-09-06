@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.nav {
+    width: 100vw;
+    height: 15vh;
+    background-color: aliceblue;
+}
+
+.main {
+    width: auto;
+    height: auto;
+}
+
+.navcontent {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+}
+
+ul>li {
+    padding-right: 50px;
+    list-style: none;
+    font-size: larger;
+}
+
+.fa-language {
+    font-size: 20px;
+}
+
+:root {
+    --color: aliceblue;
+    --seccolor: black;
+    --icolor: rgb(20, 19, 19);
+
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    color: var(--color);
+    font-weight: 200;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.h2 {
+    width: 45vw;
+    color: var(--color);
+    font-weight: 50;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.boxmac {
+    padding: 10px 10px 10px 10px;
+    width: 18vw;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: var(--color);
+    text-align: center;
+    background-color: cadetblue;
+
+}
+
+.down {
+    padding: 2vw 1vw 1vw 15vw;
+    color: var(--color);
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.boxes {
+    color: var(--color);
+    display: grid;
+    padding: 0vw 3vw 10vw 15vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+
+}
+
+.bit32 {
+
+    width: 10vw;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
+.bit64 {
+
+    width: 10vw;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
+.lang{
+    color: var(--color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ibox1 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+     padding-top: 5px; 
+    padding-bottom: 5px;
+  
+}
+.ibox2 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox3 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox4{
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 10px;
+}
+.ibox5 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox6 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox7 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox8 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox9 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ibox10 {
+    height: 25vh;
+    width: 19vw;
+    background-color: var(--icolor);
+    color: var(--seccolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

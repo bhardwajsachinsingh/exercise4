@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="navcontent">
+                <ul>
+                    <li>
+                        <h2>UltraEdit</h2>
+                    </li>
+                    <li>
+                        <h6>An Idera,inc.Company</h6>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>Product </li>
+                    <li>For Business</li>
+                    <li>Resources</li>
+                    <li>Support</li>
+                    <li>Our Company</li>
+                    <li><i class="fa-solid fa-language"></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="main">
+            <header class="para">
+                <h1 class="h1">Download ultra edit for windows <img src="data:image/png;base64,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" alt=""></h1>
+                <h3 class="h2">Download and try Ultraedit before you buy it!This download includes the full windows version of the text editor.</h3>
+                <div class="boxmac">
+                    Download max or linux version
+                </div>
+            </header>
+            <section>
+                <div class="down">
+                    <span class="bold">Download UltraEdit</span><span>v2024.0(released on 06/09/2024)|Hotfix</span>
+                </div>
+                <div class="boxes">
+                    <div class="ibox1">
+                        <p class="lang">
+                            English
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox2">
+                        <p class="lang">
+                           Deutsch
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox3">
+                        <p class="lang">
+                          Italiano
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox4">
+                        <p class="lang">
+                            Espanol
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox5">
+                        <p class="lang">
+                            Francis
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox6">
+                        <p class="lang">
+                        Portugues brasileiro
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox7">
+                        <p class="lang">
+                            Japanese
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox8">
+                        <p class="lang">
+                            Korean
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox9">
+                        <p class="lang">
+                            Chinese
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                    <div class="ibox10">
+                        <p class="lang">
+                            Traditional Chinese
+                        </p>
+                        <p class="bit32">Download 32-bit</p>
+                        <p class="bit64">Download 64-bit</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+
+</html>
